@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Reset styles */
+* {
+  margin: auto;
+  
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+               'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white; /* dark YouTube style #020617 */
+  color: white;
+}
+
+/* Root container */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
