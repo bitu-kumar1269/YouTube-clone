@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-export default function Watchpage() {
+export default function WatchPage() {
   const { id } = useParams();
 
   if (!id) return <p className="text-white">Video not found</p>;
